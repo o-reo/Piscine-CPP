@@ -6,7 +6,7 @@
 /*   By: eruaud <eruaud@student.le-101.fr>          +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2019/01/17 13:37:17 by eruaud       #+#   ##    ##    #+#       */
-/*   Updated: 2019/01/17 18:46:01 by eruaud      ###    #+. /#+    ###.fr     */
+/*   Updated: 2019/01/19 15:34:24 by eruaud      ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
@@ -15,8 +15,19 @@
 
 int         main()
 {
-    Contact     ct;
-    ct.set();
-    ct.summary();
+    Phonebook       pb;
+    std::string     cmd;
+
+    while (cmd != "EXIT") {
+        std::cout << "type a command: ";
+        std::cin >> cmd;
+        if (cmd == "SEARCH") {
+            std::cout << pb;
+            pb.Search();
+         }
+        else if (cmd == "ADD")
+            pb.Add();
+    }
+    std::cout << "goodbye!" << std::endl;
     return (0);
 }

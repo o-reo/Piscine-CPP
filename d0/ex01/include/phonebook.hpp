@@ -1,35 +1,37 @@
 /* ************************************************************************** */
 /*                                                          LE - /            */
 /*                                                              /             */
-/*   field.hpp                                        .::    .:/ .      .::   */
+/*   phonebook.hpp                                    .::    .:/ .      .::   */
 /*                                                 +:+:+   +:    +:  +:+:+    */
 /*   By: eruaud <eruaud@student.le-101.fr>          +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
-/*   Created: 2019/01/17 17:24:40 by eruaud       #+#   ##    ##    #+#       */
-/*   Updated: 2019/01/19 14:55:31 by eruaud      ###    #+. /#+    ###.fr     */
+/*   Created: 2019/01/19 13:55:32 by eruaud       #+#   ##    ##    #+#       */
+/*   Updated: 2019/01/19 15:01:48 by eruaud      ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
 
-#ifndef FIELD_HPP
-# define FIELD_HPP
+#ifndef PHONEBOOK_HPP
+# define PHONEBOOK_HPP
 
-#include <string.h>
-#include <iostream>
-#include <iomanip>
+# include <string.h>
+# include <iostream>
+# include <iomanip>
+# include "contact.hpp"
 
-class           Field {
+class   Phonebook {
     private:
-    std::string mValue;
-    std::string mLabel;
-
+        Contact mContacts[8];
+        int     mLength;
     public:
-    void        Set();
-    void        SetLabel(std::string newlabel){ mLabel = newlabel; };
-    std::string GetLabel(){return (mLabel);};
-    std::string Get(){return (mValue);};
+        Phonebook();
+        ~Phonebook();
+        Contact *Get();
+        int     GetLength();
+        void    Add();
+        void    Search();
 };
 
-std::ostream& operator<< (std::ostream& stream, Field& obj);
+std::ostream& operator<< (std::ostream& stream, Phonebook& obj);
 
 #endif

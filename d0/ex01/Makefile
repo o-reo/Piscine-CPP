@@ -6,7 +6,7 @@
 #    By: eruaud <eruaud@student.le-101.fr>          +:+   +:    +:    +:+      #
 #                                                  #+#   #+    #+    #+#       #
 #    Created: 0017/12/28 15:26:42 by uaud         #+#   ##    ##    #+#        #
-#    Updated: 2019/01/17 17:52:20 by eruaud      ###    #+. /#+    ###.fr      #
+#    Updated: 2019/01/19 14:15:25 by eruaud      ###    #+. /#+    ###.fr      #
 #                                                          /                   #
 #                                                         /                    #
 # **************************************************************************** #
@@ -14,7 +14,7 @@
 NAME = phonebook
 CC = clang++
 CFLAGS = -Wall -Wextra -Werror
-FUNC = main contact field
+FUNC = main contact field phonebook
 SRC = $(addprefix src/, $(addsuffix .cpp, $(FUNC)))
 OBJ = $(addprefix build/, $(addsuffix .o, $(FUNC)))
 RED = \033[1;31m
