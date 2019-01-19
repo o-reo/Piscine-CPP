@@ -1,19 +1,19 @@
 /* ************************************************************************** */
 /*                                                          LE - /            */
 /*                                                              /             */
-/*   contact.cpp                                      .::    .:/ .      .::   */
+/*   Contact.cpp                                      .::    .:/ .      .::   */
 /*                                                 +:+:+   +:    +:  +:+:+    */
 /*   By: eruaud <eruaud@student.le-101.fr>          +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2019/01/17 16:04:47 by eruaud       #+#   ##    ##    #+#       */
-/*   Updated: 2019/01/19 15:03:58 by eruaud      ###    #+. /#+    ###.fr     */
+/*   Updated: 2019/01/19 15:44:50 by eruaud      ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
 
 #include <iostream>
 #include <iomanip>
-#include "../include/contact.hpp"
+#include "../include/Contact.hpp"
 
 /*
 ** first name, last name, nickname,

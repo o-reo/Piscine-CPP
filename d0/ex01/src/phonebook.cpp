@@ -1,17 +1,17 @@
 /* ************************************************************************** */
 /*                                                          LE - /            */
 /*                                                              /             */
-/*   phonebook.cpp                                    .::    .:/ .      .::   */
+/*   Phonebook.cpp                                    .::    .:/ .      .::   */
 /*                                                 +:+:+   +:    +:  +:+:+    */
 /*   By: eruaud <eruaud@student.le-101.fr>          +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2019/01/19 13:58:43 by eruaud       #+#   ##    ##    #+#       */
-/*   Updated: 2019/01/19 15:40:24 by eruaud      ###    #+. /#+    ###.fr     */
+/*   Updated: 2019/01/19 15:44:42 by eruaud      ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
 
-#include "../include/phonebook.hpp"
+#include "../include/Phonebook.hpp"
 
 Phonebook::Phonebook(void) {
     mLength = 0;

@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                          LE - /            */
 /*                                                              /             */
-/*   phonebook.hpp                                    .::    .:/ .      .::   */
+/*   Phonebook.hpp                                    .::    .:/ .      .::   */
 /*                                                 +:+:+   +:    +:  +:+:+    */
 /*   By: eruaud <eruaud@student.le-101.fr>          +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2019/01/19 13:55:32 by eruaud       #+#   ##    ##    #+#       */
-/*   Updated: 2019/01/19 15:01:48 by eruaud      ###    #+. /#+    ###.fr     */
+/*   Updated: 2019/01/19 15:45:46 by eruaud      ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
@@ -17,7 +17,7 @@
 # include <string.h>
 # include <iostream>
 # include <iomanip>
-# include "contact.hpp"
+# include "Contact.hpp"
 
 class   Phonebook {
     private:

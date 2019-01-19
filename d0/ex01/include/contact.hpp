@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                          LE - /            */
 /*                                                              /             */
-/*   contact.hpp                                      .::    .:/ .      .::   */
+/*   Contact.hpp                                      .::    .:/ .      .::   */
 /*                                                 +:+:+   +:    +:  +:+:+    */
 /*   By: eruaud <eruaud@student.le-101.fr>          +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2019/01/17 16:04:19 by eruaud       #+#   ##    ##    #+#       */
-/*   Updated: 2019/01/19 14:58:28 by eruaud      ###    #+. /#+    ###.fr     */
+/*   Updated: 2019/01/19 15:45:12 by eruaud      ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
@@ -14,7 +14,7 @@
 #ifndef CONTACT_HPP
 # define CONTACT_HPP
 
-#include "field.hpp"
+#include "Field.hpp"
 
 class           Contact {
     int         mIndex;
