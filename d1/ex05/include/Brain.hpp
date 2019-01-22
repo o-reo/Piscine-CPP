@@ -6,7 +6,7 @@
 /*   By: eruaud <eruaud@student.le-101.fr>          +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2019/01/19 17:10:40 by eruaud       #+#   ##    ##    #+#       */
-/*   Updated: 2019/01/22 14:56:51 by eruaud      ###    #+. /#+    ###.fr     */
+/*   Updated: 2019/01/22 16:49:53 by eruaud      ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
@@ -15,10 +15,14 @@
 # define BRAIN_HPP
 
 # include <iostream>
+# include <sstream>
 
 class       Brain {
+    std::string mAddress;
     public:
-    void    *identify();
+    Brain();
+    ~Brain();
+    std::string identify() const;
 };
 
 #endif
